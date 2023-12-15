@@ -1,0 +1,6 @@
+I was attempting to enable JIT today, i ran into this"pymobiledevice3 not installed", 
+so i followed the instructions on the official page and did this "/Applications/Xcode.app/Contents/Developer/usr/bin/python3 -m pip install -U pymobiledevice3". 
+But then i got another error, "Could not connect to device. The process 'python3' returned unexpected output. Error: No such command 'start-quic-tunnel"
+so i followed the instructions and did this "python3 -m pip install pymobiledevice3==2.30.0 construct==2.10.69"
+After it, i tried again and got this error again"pymobiledevice3 not installed"
+can Anyone help me with this?
